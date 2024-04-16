@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+
+<head>
+  <style>
+    /* CSS styles to change color and position the text */
+    .custom-link {
+        color: #f4f1f1; /* Change to your desired text color */
+        font-weight: bold;
+        float: right;
+        margin-right: 50px; /* Adjust the margin as needed */
+    }
+    
+    .check-more-btn {
+    /* Add your custom styles for the check more button here */
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff; /* Change to your desired color */
+    background-color: purple; /* Change to your desired color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+    .cus-link {
+        color: #5A5DB6; /* Change to your desired text color */
+        font-size: 36px; /* Change to your desired font size */
+        font-family: 'Oswald', sans-serif; /* Change to your desired font family */
+        font-weight:bold;
+        margin-left: 20px; /* Adjust the left margin as needed */
+        margin-top: -10px; /* Adjust the top margin to move the text upward */
+        left: -20px;
+        top: -10px;
+    }
+
+    .image-container {
+            text-align: center;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>DETECTO</title>
+  <link rel="stylesheet" href="static/nicepage2.css" media="screen">
+  <link rel="stylesheet" href="static/Real-1.css" media="screen">
+  <script class="u-script" type="text/javascript" src="static/jquery2-1.9.1.min.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="static/nicepage2.js" defer=""></script>
+  <meta name="generator" content="Nicepage 6.0.11, nicepage.com">
+  <link id="u-theme-google-font" rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
+    
+    
+  <script type="application/ld+json">
+    {
+		  "@context": "http://schema.org",
+		  "@type": "Organization",
+		  "name": "",
+		  "logo": "static/images/11083379.png"
+    }
+  </script>
+  <meta name="theme-color" content="#e68c51">
+  <meta property="og:title" content="Page 1">
+  <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+
+<body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en">
+  <header 
+      class=" u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-clearfix u-header u-section-row-container" 
+      id="sec-6581"  data-animation-name="" data-animation-duration="0" data-animation-delay="0" 
+      data-animation-direction="">
+    <div class="u-section-rows">
+      <div class="u-section-row" id="sec-6e17">
+          <a href="{{ url_for('index')}}" class="u-image u-logo u-image-1" data-image-width="128" data-image-height="128">
+          <img src="static/images/11083379.png" class="u-logo-image u-logo-image-1">
+          </a><span class="u-file-icon u-icon u-icon-1"><img src="static/images/179319.png" alt=""></span>
+          <span class="u-file-icon u-icon u-icon-2"><img src="static/images/2504839.png" alt=""></span>
+          <span class="u-file-icon u-icon u-icon-3"><img src="static/images/4138124.png" alt=""></span>
+          <span class="u-file-icon u-icon u-icon-4"><img src="static/images/9663120.png" alt=""></span>
+          <p class="u-text u-text-1 cus-link">DE​​TECTO</p>
+         <br><br><br>
+        <div class="image-container" style="align-content: center;background-image: url('static/images/7d4f0734-43ed-4304-80cb-7ba55a2d7c64.jpg');text-align: center">
+          <div class="background-image"
+            style="background-image: url('static/images/7d4f0734-43ed-4304-80cb-7ba55a2d7c64.jpg');text-align: center">
+          </div><br><br><br>
+            <img class="" src="{{ url_for('static', filename='uploadsimage.png') }}" alt="Uploaded Image" style="width: 100%; max-width: 800px; height: auto; margin-top: 20px; align-items: center;">
+            <p class="u-custom-font u-text u-text-default u-text-5 matching-percentage" style="color: white;">Watermark Matching Percentage: {{ watermark_percentage }}%</p>
+            <p class="u-custom-font u-text u-text-default u-text-5 matching-percentage" style="margin-bottom: 60px;color: white;">
+                Silverline Matching Percentage: {{ silverline_percentage }}%
+            </p>
+            <a href="{{ url_for('result')}}" class="check-more-btn">CHECK MORE</a><br><br>
+        </div>
+      </div>
+            
+            
+            
+            
+          </div>
+    </header>
+      <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-5185"><div class="u-clearfix u-sheet ">
+        <p class="u-small-text u-text u-text-variant u-text-1">@Copyright Detecto</p>
+      </div></footer>
+    
+
+  
+</body></html>
